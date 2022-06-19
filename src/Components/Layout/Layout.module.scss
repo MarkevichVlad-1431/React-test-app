@@ -1,0 +1,42 @@
+.bodyLayout{
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    height: 100%;
+    // justify-items: center;
+
+    .bodyTopMenu{
+        display: grid;
+        padding: 20px 0;
+        grid-template-columns: max-content max-content max-content;
+        align-items: center;
+        padding: 0 20px;
+        background-color: #000;
+
+        color: #fff;
+        
+        a {
+            margin: 0 10px;
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+        }
+    }
+}  
+
+.container{
+    width: 90%;
+    display: grid;
+    justify-self: center;
+}
+
+footer{
+    padding: 10px 0;
+
+    text-align: center;
+    background-color: #000;
+
+    color: #fff;
+}

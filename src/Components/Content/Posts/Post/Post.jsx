@@ -18,7 +18,7 @@ const Post = (props) => {
                     {props.title}
                 </div>
                 <div className={s.text}>
-                    {props.text}
+                    {props.body}
                 </div>
            </div>
             

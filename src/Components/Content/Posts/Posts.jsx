@@ -17,7 +17,7 @@ const Posts = () => {
         id = {item.id}
         key = {item.id}
         name = {item.name}
-        text = {item.text}
+        body = {item.body}
         title = {item.title}
     />)
 

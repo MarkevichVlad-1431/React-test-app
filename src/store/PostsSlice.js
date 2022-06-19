@@ -9,7 +9,7 @@ const initialState = {
 export const fetchPosts = createAsyncThunk(
     'posts/fetchPosts',
     async (_, {rejectWithValue}) => {
-        const responce = await fetch("http://my-json-server.typicode.com/MarkevichVlad-1431/CreateFakeAPI/Posts");
+        const responce = await fetch("https://jsonplaceholder.typicode.com/posts?_limit=10");
 
         try {
 

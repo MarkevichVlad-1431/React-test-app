@@ -8,7 +8,7 @@ const Layout = () => {
         
             <header className={s.bodyTopMenu}>
                 <Link to='/'>Home</Link>
-                <Link to='/friends'>Friends</Link>
+                <Link to='/posts'>Posts</Link>
                 <Link to='/test'>Test</Link>
             </header>
             <main className={s.container}>

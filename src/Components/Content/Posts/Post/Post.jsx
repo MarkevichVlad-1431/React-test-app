@@ -4,7 +4,7 @@ import s from './Post.module.scss';
 const Post = (props) => {
     return (
         <div className={s.bodyPost}>
-            <div className={s.user}>
+            {/* <div className={s.user}>
                 <div>
                     {props.id}
                 </div>
@@ -20,7 +20,7 @@ const Post = (props) => {
                 <div className={s.text}>
                     {props.body}
                 </div>
-           </div>
+           </div> */}
             
         </div>
     )
